@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <HEAD>
+    <title>QR code design</title>
+    <meta name="viewport" content="width = device-width,initial-scale = 1.0">
+    <style>
+      body{
+        background-image: url(background.jpg);
+      }
+      .sub-body{
+        background-color: rgb(179, 237, 237);
+        display: grid;
+        height: 650px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 45px;
+        margin-right: 45px;
+      }
+      .qr-code{
+        background-color: white;
+        border-radius: 10px;
+        width:250px;
+        height: 380px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+      }
+      .qr-img{
+        width:220px;
+        height: 220px;
+        border-radius: 10px;
+        margin-top: 5px;     
+      }
+      .text-1{
+        font-weight: bold;
+        margin-left: 25px;
+        font-size: medium;
+        margin-right: 25px;
+        margin-bottom: 1px;
+      }
+      .text-2{
+        font-weight: lighter;
+        color: grey;
+        font-size: small;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </HEAD>
+  <body>
+    
+    <div class="sub-body">
+      <div class="qr-code">
+        <div class="qr-img-block">
+          <img class="qr-img" src="image-qr-code.png">
+        </div>
+        <div class="text-1">
+          Improve your front-end skills by building projects
+        </div>
+        <div class="text-2">
+          Scan QR code to visit front-end mentor and to take coding skills to next level
+        </div>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>
